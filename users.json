@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "username": "alicej",
+      "email": "alice.johnson@example.com",
+      "age": 28,
+      "is_active": true,
+      "roles": ["admin", "editor"],
+      "address": {
+        "street": "123 Maple St",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704",
+        "country": "USA"
+      },
+      "joined_at": "2022-03-15T09:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "username": "bobsmith",
+      "email": "bob.smith@example.com",
+      "age": 34,
+      "is_active": true,
+      "roles": ["editor"],
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97201",
+        "country": "USA"
+      },
+      "joined_at": "2021-11-02T14:15:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Carol Lee",
+      "username": "carolle",
+      "email": "carol.lee@example.com",
+      "age": 22,
+      "is_active": false,
+      "roles": ["viewer"],
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "73301",
+        "country": "USA"
+      },
+      "joined_at": "2023-06-20T08:45:00Z"
+    },
+    {
+      "id": 4,
+      "name": "David Kim",
+      "username": "davidk",
+      "email": "david.kim@example.com",
+      "age": 41,
+      "is_active": true,
+      "roles": ["admin"],
+      "address": {
+        "street": "321 Birch Blvd",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "country": "USA"
+      },
+      "joined_at": "2020-01-10T17:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Eva Martinez",
+      "username": "evam",
+      "email": "eva.martinez@example.com",
+      "age": 30,
+      "is_active": false,
+      "roles": ["viewer", "editor"],
+      "address": {
+        "street": "654 Cedar Ln",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33101",
+        "country": "USA"
+      },
+      "joined_at": "2023-09-05T12:20:00Z"
+    }
+  ],
+  "meta": {
+    "total_users": 5,
+    "generated_at": "2024-01-15T10:00:00Z",
+    "version": "1.0"
+  }
+}
